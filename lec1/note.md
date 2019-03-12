@@ -68,7 +68,7 @@
 - 回环：loop closing(相机回到之前相同的位置，优化约束，消除累计误差/图像相似性/词袋模型)
 - 建图：mapping(导航/路劲规划/人机交互/可视化/通讯/度量地图/拓扑地图/稀疏地图/稠密地图)
 
-![map categories](png/map categories.png)
+![map categories](png/mapcategories.png)
 
  视觉SLAM的数学模型：
 $$
