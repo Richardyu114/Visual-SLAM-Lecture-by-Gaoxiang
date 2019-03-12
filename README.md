@@ -1,2 +1,40 @@
-# Visual-SLAM-Lecture-by-Gaoxiang
-高翔视觉SLAM课程的笔记和作业以及资源
+# Visual-SLAM-Lecture-by-Gaoxiang 2017.
+这是高翔视觉SLAM课程的个人笔记，课后答案，代码实践以及一些课程材料等资源。
+
+## 本教程内容提纲
+
+- 概述与预备知识
+- 三维空间的刚体运动
+- 李群李代数
+- 相机模型与非线性优化
+- 特征点法视觉里程计
+- 直接法视觉里程计
+- 后端优化
+- 回环检测
+
+## 学习研究步骤
+
+第一部分是学习相关的数学知识，构建数学模型
+
+- 矩阵
+- 概率论
+- 李群李代数
+- 微分几何
+- 凸优化
+
+...
+
+第二部分是计算机视觉的代码实践
+
+- openCV
+- c++
+- python
+- Linux
+
+...
+
+教材：
+
+- Multiple view  Geometry in computer vision
+- State estimation for robotics
+- 视觉SLAM十四讲-从理论到实践([作业代码](https://github.com/AceCoooool/slambook))
