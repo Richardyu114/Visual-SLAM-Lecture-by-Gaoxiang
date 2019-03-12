@@ -68,7 +68,7 @@
 - 回环：loop closing(相机回到之前相同的位置，优化约束，消除累计误差/图像相似性/词袋模型)
 - 建图：mapping(导航/路劲规划/人机交互/可视化/通讯/度量地图/拓扑地图/稀疏地图/稠密地图)
 
-![map categories](visual-SLAM-by-Gaoxiang-1/map categories.png)
+![map categories](png/map categories.png)
 
  视觉SLAM的数学模型：
 $$
@@ -515,9 +515,9 @@ add_executable(myslam myslam.cpp)
 target_link_libraries(myslam ${PROJECT_NAME})
 ```
 
-**将myvideo.cpp、myslam.cpp、myvideo.yaml、myslam.yaml以及myvideo.mp4都放到ORB-SLAM2目录下**，再次编译ORB-SLAM2后，就会生成可执行文件，然后终端输入./myvideo和./myslam就可以直接运行了。
+**将myvideo.cpp、myslam.cpp、myvideo.yaml、myslam.yaml以及myvideo.mp4都放到ORB-SLAM2目录下**，再次编译ORB-SLAM2后，就会生成可执行文件，然后终端输入./myvideo和./myslam就可以直接运行了。(没有视频可以自己拍）
 
-![myvideo](visual-SLAM-by-Gaoxiang-1/myvideo.png)
+![myvideo](png/myvideo.png)
 
 这里有个问题，一开始我是根据CMakeLits.txt中上面的语句来写的，也就是我把myvideo.cpp、myslam.cpp放在了、Examples/Monocular文件夹中，然后进行编译，结果虽然生成了可执行文件，但是程序无法运行，终端要么提示无法读取对应的.yaml的设置，要么出现segmentation fault错误，最后放到ORB-SLAM2总目录下就没问题了。。。目前不知道什么原因，等后面再看看。
 
