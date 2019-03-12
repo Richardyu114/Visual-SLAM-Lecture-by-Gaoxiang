@@ -1,7 +1,7 @@
 # Visual-SLAM-Lecture-by-Gaoxiang 2017.
 这是高翔视觉SLAM课程的个人笔记，课后答案，代码实践以及一些课程材料等资源。
 
-更好的阅读体验可以参见的我[博客](richardyu114.github.io)
+更好的阅读体验可以参见的我[博客](https://richardyu114.github.io/)
 
 如有侵权行为，请联系我删除。
 
