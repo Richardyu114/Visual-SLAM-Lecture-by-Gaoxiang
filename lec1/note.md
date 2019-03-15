@@ -3,6 +3,8 @@
 - simultaneous localization and mapping
 - 仅使用相机进行室内/室外定位（有些情况下GPS会崩，IMU漂移随着时间误差增大）
 - 机器人在未知环境进行导航---建图(sparse/semi-dense/dense)
+- SLAM问题的本质是对运动主体自身和周围环境空间不确定性的估计（spatial uncertainty）
+- 为了解决SLAM问题，我们需要状态估计理论，把定位和建图的不确定性表达出来，然后采用滤波器或非线性优化，估计状态的均值和不确定性（方差）
 
 ------
 
@@ -66,7 +68,7 @@
 - 前端：visual odometry(估计邻帧相机相机运动/feature-based/direct-based)
 - 后端：optimization(消除噪声，优化轨迹/最大后验概率估计/滤波器/图优化)
 - 回环：loop closing(相机回到之前相同的位置，优化约束，消除累计误差/图像相似性/词袋模型)
-- 建图：mapping(导航/路劲规划/人机交互/可视化/通讯/度量地图/拓扑地图/稀疏地图/稠密地图)
+- 建图：mapping(导航/路劲规划/人机交互/可视化/通讯/度量地图（稀疏地图/稠密地图/拓扑地图)
 
 ![map categories](png/mapcategories.png)
 
@@ -337,6 +339,12 @@ srv代表服务。
 
 
 ### CMake练习
+
+>1.程序代码由头文件和源文件组成；
+>
+>2.带有main函数的源文件编译成可执行程序，其他的编译成库文件；
+>
+>3.如果可执行程序想调用库文件中的函数，它需要参考该库提供的头文件，以明白调用的格式。同时要把可执行程序链接到库文件上；
 
 在自己的工程目录里面建立子目录`build`文件夹和`src`文件夹和`libhello`文件夹，hello.cpp,hello.h放入`libhello`中,useHello.cpp放入`src`中。同时在工程目录下创建一个顶层的CMakeLists.txt文件，内容如下：
 
