@@ -1,0 +1,1 @@
+/usr/bin/g++-5   -O3 -O3 -DNDEBUG   CMakeFiles/Geometryusing.dir/Geometryusing.cpp.o  -o Geometryusing -rdynamic 

@@ -1,0 +1,3 @@
+/home/richard/Geometryusing/build/CMakeFiles/edit_cache.dir
+/home/richard/Geometryusing/build/CMakeFiles/rebuild_cache.dir
+/home/richard/Geometryusing/build/CMakeFiles/Geometryusing.dir

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/richard/Geometryusing/build",
+  "command": "/usr/bin/g++-5    -I/usr/include/eigen3  -O3 -O3 -DNDEBUG   -o CMakeFiles/Geometryusing.dir/Geometryusing.cpp.o -c /home/richard/Geometryusing/Geometryusing.cpp",
+  "file": "/home/richard/Geometryusing/Geometryusing.cpp"
+}
+]
