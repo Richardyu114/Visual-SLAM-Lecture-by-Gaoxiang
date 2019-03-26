@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/sayHello.dir/useHello.cpp.o  -o ../bin/sayHello -rdynamic ../lib/libsayhello.so -Wl,-rpath,/home/richard/mySLAM_code/cmaketest/build/lib 
