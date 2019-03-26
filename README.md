@@ -7,7 +7,7 @@
 
 ## 本教程内容提纲
 
-- 概述与预备知识
+- [概述与预备知识](https://richardyu114.github.io/2019/03/12/visual-SLAM-by-Gaoxiang-1/)
 - 三维空间的刚体运动
 - 李群李代数
 - 相机模型与非线性优化
