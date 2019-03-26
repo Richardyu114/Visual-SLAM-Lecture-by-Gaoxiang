@@ -1,0 +1,1 @@
+/usr/bin/g++-5   -O3 -O3 -DNDEBUG   CMakeFiles/QR_cholesky.dir/QR_cholesky.cpp.o  -o QR_cholesky -rdynamic 

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/richard/Eigenusing/build",
+  "command": "/usr/bin/g++-5    -I/usr/include/eigen3  -O3 -O3 -DNDEBUG   -o CMakeFiles/QR_cholesky.dir/QR_cholesky.cpp.o -c /home/richard/Eigenusing/QR_cholesky.cpp",
+  "file": "/home/richard/Eigenusing/QR_cholesky.cpp"
+}
+]
