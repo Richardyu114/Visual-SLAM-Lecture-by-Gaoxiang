@@ -1,0 +1,3 @@
+/home/richard/trajectorydrawing/build/CMakeFiles/edit_cache.dir
+/home/richard/trajectorydrawing/build/CMakeFiles/rebuild_cache.dir
+/home/richard/trajectorydrawing/build/CMakeFiles/trajectorydrawing.dir

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/richard/trajectorydrawing/build",
+  "command": "/usr/bin/g++-5   -DCOMPILEDWITHC11 -I/usr/local/lib/cmake/Pangolin/../../../include -I/home/richard/slambook/3rdparty/Sophus -I/usr/include/eigen3 -isystem /usr/local/include   -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/trajectorydrawing.dir/draw_trajectory.cpp.o -c /home/richard/trajectorydrawing/draw_trajectory.cpp",
+  "file": "/home/richard/trajectorydrawing/draw_trajectory.cpp"
+}
+]
