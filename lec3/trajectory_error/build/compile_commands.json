@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/richard/trajectory_error/build",
+  "command": "/usr/bin/g++-5   -DCOMPILEDWITHC11 -I/usr/local/lib/cmake/Pangolin/../../../include -I/home/richard/slambook/3rdparty/Sophus -I/usr/include/eigen3 -isystem /usr/local/include   -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/trajectory_error.dir/trajectory_error.cpp.o -c /home/richard/trajectory_error/trajectory_error.cpp",
+  "file": "/home/richard/trajectory_error/trajectory_error.cpp"
+}
+]

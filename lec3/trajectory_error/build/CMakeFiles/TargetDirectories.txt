@@ -1,0 +1,3 @@
+/home/richard/trajectory_error/build/CMakeFiles/edit_cache.dir
+/home/richard/trajectory_error/build/CMakeFiles/rebuild_cache.dir
+/home/richard/trajectory_error/build/CMakeFiles/trajectory_error.dir
