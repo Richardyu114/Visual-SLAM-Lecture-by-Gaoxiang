@@ -1,15 +1,15 @@
 # Visual-SLAM-Lecture-by-Gaoxiang 2018.
 这是高翔视觉SLAM课程的个人笔记，课后答案，代码实践以及一些课程材料等资源。
 
-更好的阅读体验可以参见的我[博客](https://richardyu114.github.io/)
+更好的阅读体验可以参见的我[博客](https://densecollections.top/)
 
 如有侵权行为，请联系我删除。
 
 ## 本教程内容提纲
 
-- [概述与预备知识](https://richardyu114.github.io/2019/03/12/visual-SLAM-by-Gaoxiang-1/)
-- [三维空间的刚体运动](https://richardyu114.github.io/2019/03/12/visual-SLAM-by-Gaoxiang-2/)
-- [李群李代数](https://richardyu114.github.io/2019/03/26/visual-SLAM-by-Gaoxiang-3/)
+- [概述与预备知识](https://densecollections.top/posts/visualSLAMbyGaoxiang-1/)
+- [三维空间的刚体运动](https://densecollections.top/posts/visualSLAMbyGaoxiang-2/)
+- [李群李代数](https://densecollections.top/posts/visualSLAMbyGaoxiang-3/)
 - 相机模型与非线性优化
 - 特征点法视觉里程计
 - 直接法视觉里程计
